@@ -1,0 +1,27 @@
+{
+  "name": "travel-scraper-playwright",
+  "version": "1.0.0",
+  "description": "Playwright-based scrapers for MMT, Goibibo, and Yatra flights and hotels with session persistence.",
+  "main": "masterRunner.js",
+  "scripts": {
+    "start": "node masterRunner.js",
+    "postinstall": "npx --yes playwright install --with-deps chromium | cat"
+  },
+  "keywords": [
+    "playwright",
+    "scraper",
+    "travel",
+    "flights",
+    "hotels"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.2"
+  }
+}
